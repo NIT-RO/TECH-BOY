@@ -1,0 +1,41 @@
+{
+  "_source": "Extrait du payload RSC de https://ecsel-academy.vercel.app/ar (06/10/2026)",
+  "domains": [
+    {
+      "id": "000c34b0-6a42-4b1d-807e-2f4d76d40d38",
+      "name_ar": "ريادة الأعمال",
+      "tagline": "MEL FIKRA LEL KHEDMA",
+      "formations": [
+        { "id": "f65fc75d-061a-4d72-a70a-93ce6eccdf6d", "code": "R13", "title_ar": "المسار الكامل لريادة الأعمال", "summary_ar": "8 وحدات متتابعة، من الفكرة إلى مؤسسة منظمة وممولة.", "duration_days": 8, "coming_soon": false, "price": null, "sessions": [] }
+      ]
+    },
+    {
+      "id": "7d025252-8466-4e91-bc2e-651608a4054f",
+      "name_ar": "التجارة الإلكترونية",
+      "tagline": "BI3, KBER, DOUM",
+      "formations": [
+        { "id": "e19357bf-04fb-4078-ac1b-e28cdad18b3e", "code": "F05", "title_ar": "البحث عن المنتجات والتوريد", "summary_ar": "إيجاد منتج رابح: الاتجاهات، التحقق من الطلب، المورّد.", "duration_days": 2, "coming_soon": true, "price": null, "sessions": [] },
+        { "id": "d5f9cb6f-c035-43c4-b9e3-54f3389380af", "code": "F04", "title_ar": "إنشاء علامتك الخاصة (White Label)", "summary_ar": "توريد منتجات عامة وإعادة تسميتها وبيعها تحت علامتك.", "duration_days": 3, "coming_soon": true, "price": null, "sessions": [] }
+      ]
+    },
+    {
+      "id": "f18013f1-b0a2-4839-b377-b5afd4219934",
+      "name_ar": "الذكاء الاصطناعي والأتمتة",
+      "tagline": "AUTOMATISI KHEDEMTEK O ARBEH LWE9T",
+      "formations": [
+        { "id": "34df3334-0805-454a-a643-752765287d0e", "code": "R09", "title_ar": "أدوات بدون برمجة والتوليد بالذكاء الاصطناعي", "summary_ar": "أتمتة سير عمل كامل باستخدام n8n وتوليد المحتوى بالذكاء الاصطناعي، دون برمجة.", "duration_days": 3, "coming_soon": false, "price": null, "sessions": [] },
+        { "id": "9e75d6cf-ac4f-4ba6-9655-9a9edbfb8fb2", "code": "R11", "title_ar": "إنشاء وكلاء الذكاء الاصطناعي", "summary_ar": "تصميم ونشر نظام وكلاء متعددين مستقل في بيئة الإنتاج.", "duration_days": 3, "coming_soon": false, "price": null, "sessions": [] }
+      ]
+    },
+    {
+      "id": "899ed4d7-7e39-47b5-898c-9042e2fdd60c",
+      "name_ar": "التسويق والمحتوى",
+      "tagline": "BANE 9BEL MA TBI3",
+      "formations": [
+        { "id": "6121f532-6072-47e3-b692-978161a11a4d", "code": "R12", "title_ar": "استراتيجية التسويق والإعلانات", "summary_ar": "إنشاء حملات Meta وTikTok وتحسينها بما يناسب السوق الجزائري.", "duration_days": 3, "coming_soon": false, "price": null, "sessions": [] }
+      ]
+    }
+  ],
+  "offer": { "name": "Passport ECSEL Expo", "voucher_dzd": 30000, "valid_until": "2026-12-31", "event": "ECSEL Expo, 07-10 octobre" },
+  "contact": { "address": "Cité Soummam, Lot 15 N°5, Bab Ezzouar, Alger", "phone": "+213770401365", "whatsapp": "+213770401365" }
+}

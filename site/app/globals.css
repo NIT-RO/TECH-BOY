@@ -366,100 +366,120 @@ html[lang="ar"] .hero h1 {
 .stage {
   position: relative;
   width: 100%;
-  height: 330px;
+  height: 440px;
   display: grid;
   place-items: center;
-  perspective: 900px;
+  perspective: 1100px;
 }
 
 .glow {
   position: absolute;
-  width: 260px;
-  height: 260px;
+  width: 360px;
+  height: 360px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(225, 37, 27, 0.4), transparent 65%);
-  filter: blur(10px);
+  background: radial-gradient(circle, rgba(225, 37, 27, 0.18), transparent 65%);
+  filter: blur(14px);
 }
 
 .prism {
   position: relative;
-  width: 176px;
-  height: 215px;
   transform-style: preserve-3d;
   transition: transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+/* Face : noir mat, filet rouge en haut, éclairage selon l'angle (--lit = 1 de face, 0 de profil). */
 .face {
   position: absolute;
   inset: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 2px;
-  background: color-mix(in srgb, var(--red) calc(var(--lit, 0) * 100%), var(--ink-2));
-  color: #fff;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(165deg, #2a2a2e 0%, #18181b 45%, #0f0f11 100%);
+  box-shadow: inset 0 3px 0 var(--red);
+  color: var(--on-dark);
   text-align: start;
   cursor: pointer;
   backface-visibility: hidden;
+  filter: brightness(calc(0.55 + var(--lit, 0) * 0.45));
+  overflow: hidden;
 }
 
 .face:hover {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
-.f-num,
-.f-tag,
-.f-foot {
+.f-num {
+  align-self: flex-end;
   font-family: var(--font-mono), monospace;
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--on-dark-muted);
+}
+
+[dir="rtl"] .f-num {
+  align-self: flex-start;
 }
 
 .f-body {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
+  margin-top: auto;
+  margin-bottom: 18px;
 }
 
 .f-name {
   font-family: var(--font-head);
-  font-size: 1.35rem;
+  font-size: var(--name-size, 2rem);
   font-weight: 900;
   line-height: 1.1;
+  color: #fff;
+}
+
+html[lang="ar"] .f-name {
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .f-tag {
-  opacity: 0.8;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--red);
   direction: ltr;
   text-align: start;
+}
+
+[dir="rtl"] .f-tag {
+  text-align: end;
 }
 
 .f-foot {
   display: flex;
   justify-content: space-between;
-  font-family: var(--font-body);
-  font-size: 0.8rem;
+  align-items: center;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 0.95rem;
+  color: var(--on-dark-muted);
 }
 
 .cap {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 176px;
-  height: 176px;
-  margin: -88px 0 0 -88px;
   display: grid;
   place-items: center;
-  background: var(--ink);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: #141416;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .cap b {
   font-family: var(--font-display), sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
   color: var(--red);
   transform: rotate(180deg);
@@ -467,11 +487,20 @@ html[lang="ar"] .hero h1 {
 
 .floor {
   position: absolute;
-  bottom: 18px;
-  width: 220px;
-  height: 26px;
+  bottom: 6px;
+  width: 320px;
+  height: 34px;
   border-radius: 50%;
-  background: radial-gradient(ellipse, rgba(0, 0, 0, 0.75), transparent 70%);
+  background: radial-gradient(ellipse, rgba(0, 0, 0, 0.85), transparent 70%);
+}
+
+@media (max-width: 420px) {
+  .stage {
+    height: 400px;
+  }
+  .prism {
+    scale: 0.86;
+  }
 }
 
 .controls {

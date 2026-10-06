@@ -47,6 +47,7 @@ export function LandingPage({ locale }: { locale: Locale }) {
                     countLabel: formationCount(locale, countFormations(d)),
                   }))}
                   labels={t.prism}
+                  rtl={locale === "ar"}
                 />
               </div>
 

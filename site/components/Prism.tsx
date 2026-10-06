@@ -69,7 +69,7 @@ export function Prism({ faces, labels }: Props) {
                   ["--lit" as string]: Math.max(0, facing).toFixed(3),
                 }}
               >
-                <span className="f-num">
+                <span className="f-num" dir="ltr">
                   {String(i + 1).padStart(2, "0")} / {String(n).padStart(2, "0")}
                 </span>
                 <span className="f-body">

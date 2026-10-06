@@ -70,10 +70,10 @@ export const dict = {
     passport: {
       tag: "Offre Passport ECSEL Expo",
       title: "Vous avez le Passport ECSEL Expo ?",
-      body: "Profitez d'un bon de 30 000 DA sur une formation ECSEL Academy, valable jusqu'au 31/12/2026.",
+      body: "Profitez d'un bon de 30\u00a0000 DA sur une formation ECSEL Academy, valable jusqu'au 31/12/2026.",
       conditions: "Réservé au titulaire du Passport, une seule fois, sur présentation du Passport au stand ou au centre.",
       event: "Rendez-vous au salon ECSEL Expo du 07 au 10 octobre.",
-      value: "30 000 DA",
+      value: "30\u00a0000 DA",
     },
     form: {
       eyebrow: "Rappelez-moi",
@@ -157,10 +157,10 @@ export const dict = {
     passport: {
       tag: "عرض Passport ECSEL Expo",
       title: "عندك Passport ECSEL Expo؟",
-      body: "استفد من قسيمة بقيمة ⁨30 000 دج⁩ على تكوين في ECSEL Academy، صالحة حتى ⁨31/12/2026⁩.",
+      body: "استفد من قسيمة بقيمة \u206630\u00a0000\u2069\u00a0دج على تكوين في ECSEL Academy، صالحة حتى ⁨31/12/2026⁩.",
       conditions: "لصاحب الـ Passport فقط، مرة واحدة، عند تقديم الـ Passport في الجناح أو في المركز.",
       event: "نلتقي في صالون ECSEL Expo من 07 إلى 10 أكتوبر.",
-      value: "30 000 دج",
+      value: "\u206630\u00a0000\u2069\u00a0دج",
     },
     form: {
       eyebrow: "اتصلوا بي",

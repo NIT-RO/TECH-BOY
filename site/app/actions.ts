@@ -46,7 +46,7 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
     preferred_time: (PREFERRED_TIMES as readonly string[]).includes(time) ? (time as PreferredTime) || null : null,
     message: get("message").slice(0, 500) || null,
     locale,
-    source: get("source") || "site",
+    source: get("source").toLowerCase().replace(/[^a-z0-9_-]/g, "").slice(0, 40) || "site",
     user_agent: (await headers()).get("user-agent"),
   };
 

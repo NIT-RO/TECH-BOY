@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Toaster } from "sonner";
+import { Analytics } from "@/components/Analytics";
 import { fontVariables } from "@/lib/fonts";
 import "../globals.css";
 
@@ -10,6 +11,7 @@ export default function ArabicRootLayout({ children }: { children: ReactNode }) 
     <html lang="ar" dir="rtl" className={fontVariables}>
       <body>
         {children}
+        <Analytics />
         <Toaster position="top-center" richColors closeButton dir="rtl" />
       </body>
     </html>

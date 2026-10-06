@@ -1,12 +1,13 @@
 "use client";
 
-import { useId, useRef, useState, useTransition } from "react";
+import { useEffect, useId, useRef, useState, useTransition } from "react";
 import { toast } from "sonner";
 import { submitLead } from "@/app/actions";
 import type { Locale } from "@/lib/catalogue";
 import { dict } from "@/lib/i18n";
 import { normalizeDzPhone, PREFERRED_TIMES, validName } from "@/lib/lead";
 import { whatsappLink } from "@/lib/site";
+import { readSource, trackLead } from "@/lib/track";
 import { useLanding } from "./LandingState";
 
 export type LeadGroup = {
@@ -24,6 +25,9 @@ export function LeadForm({ locale, groups, privacyHref }: { locale: Locale; grou
   const { interest, setInterest } = useLanding();
   const [errors, setErrors] = useState<Field[]>([]);
   const [pending, startTransition] = useTransition();
+  const [source, setSource] = useState("site");
+
+  useEffect(() => setSource(readSource()), []);
 
   const interestLabel = (value: string) => {
     const [type, slug] = value.split(":");
@@ -53,6 +57,7 @@ export function LeadForm({ locale, groups, privacyHref }: { locale: Locale; grou
       const res = await submitLead(data).catch(() => ({ ok: false as const, reason: "delivery" as const }));
       if (res.ok) {
         toast.success(t.success);
+        trackLead(String(data.get("interest") ?? ""), source);
         formRef.current?.reset();
         setInterest("");
         return;
@@ -76,7 +81,7 @@ export function LeadForm({ locale, groups, privacyHref }: { locale: Locale; grou
   return (
     <form ref={formRef} className="lead-form" noValidate onSubmit={onSubmit}>
       <input type="hidden" name="locale" value={locale} />
-      <input type="hidden" name="source" value="site" />
+      <input type="hidden" name="source" value={source} />
       <div className="honeypot" aria-hidden="true">
         <label>
           Website

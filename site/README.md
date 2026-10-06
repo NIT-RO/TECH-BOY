@@ -52,6 +52,17 @@ Exemple de demande reçue :
 
 Un webhook **n8n** ou **Make** fonctionne aussi. Dans ce cas, `LEADS_WEBHOOK_SECRET` est envoyé dans l'en-tête `X-Webhook-Secret`.
 
+## Mesure et provenance des contacts
+- **Meta Pixel / GA4** : renseigner `NEXT_PUBLIC_META_PIXEL_ID` et/ou `NEXT_PUBLIC_GA_ID` dans Vercel, puis redéployer. Rien n'est chargé tant que ces variables sont vides. Chaque demande envoyée déclenche `Lead` (Meta) et `generate_lead` (GA4).
+- **Provenance** : ajouter `?src=…` aux liens pour savoir d'où vient chaque contact (colonne `source` de la Sheet). À défaut, le site lit `utm_source`. Exemples :
+
+| Support | Lien |
+|---|---|
+| QR code du stand ECSEL Expo | `https://<site>/ar?src=stand` |
+| Flyer / roll-up | `https://<site>/?src=flyer` |
+| Bio Instagram | `https://<site>/?src=instagram` |
+| Publicité Meta | `https://<site>/?utm_source=meta_ads` |
+
 ## Déployer sur Vercel
 1. Importer le dépôt dans Vercel et régler **Root Directory = `site`**.
 2. Variables d'environnement : `LEADS_WEBHOOK_URL`, `NEXT_PUBLIC_SITE_URL` (URL finale, ex. `https://ecsel-academy.vercel.app`) et, si besoin, `LEADS_WEBHOOK_SECRET`.

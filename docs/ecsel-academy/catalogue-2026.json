@@ -1,0 +1,175 @@
+{
+  "_source": "Catalogue_B2C_ECSEL_Expo_2026.pptx (16 slides), aligné sur le format du site ecsel-academy.vercel.app",
+  "_conventions": {
+    "code": "null = code interne non fourni dans le PPTX (à compléter)",
+    "status": "available = « Disponible » ; soon = « Bientôt disponible » (lu sur les slides, pas dans les notes)",
+    "price_dzd": "null = non communiqué → le site affiche « Prix au stand » tant que le prix n'est pas fourni",
+    "sessions": "vide = « Dates bientôt »",
+    "title_ar / summary_ar": "les textes déjà en ligne sont repris tels quels ; les nouveaux sont à faire relire par un arabophone"
+  },
+  "domains": [
+    {
+      "key": "entrepreneuriat",
+      "site_id": "000c34b0-6a42-4b1d-807e-2f4d76d40d38",
+      "name_fr": "Entrepreneuriat",
+      "name_ar": "ريادة الأعمال",
+      "tagline": "MEL FIKRA LEL KHEDMA",
+      "intro_fr": "Du mindset entrepreneurial au financement, en passant par la structuration légale — jusqu'au parcours complet.",
+      "groups": [
+        {
+          "label_fr": "Partie 1 · Mindset et cadrage stratégique",
+          "label_ar": "الجزء 1 · العقلية والتأطير الاستراتيجي",
+          "formations": [
+            { "code": null, "title_fr": "Mindset entrepreneur", "title_ar": "عقلية رائد الأعمال", "duration_days": 2, "status": "available", "trainers": ["Amri"], "tagline_darija": "BDA LYOM, MACHI GHEDWA", "tagline_en": "Start Today, Not Someday",
+              "summary_fr": "Développer les réflexes et la posture de l'entrepreneur : prise de risque, résilience et passage à l'action.",
+              "summary_ar": "تطوير ردود الفعل وموقف رائد الأعمال: روح المبادرة، الصمود، والانتقال إلى الفعل." },
+            { "code": null, "title_fr": "Business model algérien", "title_ar": "نموذج أعمال جزائري", "duration_days": 3, "status": "available", "trainers": ["Amri"], "tagline_darija": "SOUK TA3NA, MODEL TA3NA", "tagline_en": "Built for This Market",
+              "summary_fr": "Construire un modèle économique viable en tenant compte des réalités du marché algérien.",
+              "summary_ar": "بناء نموذج اقتصادي قابل للاستمرار يراعي واقع السوق الجزائري." },
+            { "code": null, "title_fr": "Définir sa stratégie d'entreprise", "title_ar": "تحديد استراتيجية مؤسستك", "duration_days": 2, "status": "available", "trainers": ["Adamou"], "tagline_darija": "9BEL MATBDA, 3REF LA WIN RAYEH", "tagline_en": "Know Where You're Going",
+              "summary_fr": "Poser les bases d'une stratégie d'entreprise : positionnement, priorités et avantage concurrentiel.",
+              "summary_ar": "وضع أسس استراتيجية المؤسسة: التموضع، الأولويات، والميزة التنافسية." }
+          ]
+        },
+        {
+          "label_fr": "Partie 2 · Structuration administrative et légale",
+          "label_ar": "الجزء 2 · الهيكلة الإدارية والقانونية",
+          "formations": [
+            { "code": null, "title_fr": "Démarches administratives et législation", "title_ar": "الإجراءات الإدارية والتشريع", "duration_days": 2, "status": "available", "trainers": ["Bergheul"], "tagline_darija": "DOSSIER KAMEL, EL ISM MAHMI", "tagline_en": "Paperwork Done, Brand Protected",
+              "summary_fr": "Les démarches administratives, fiscales et douanières pour créer légalement son entreprise en Algérie, et les bases de la propriété intellectuelle pour protéger une idée, une marque ou une invention.",
+              "summary_ar": "الإجراءات الإدارية والجبائية والجمركية لإنشاء مؤسستك قانونيًا في الجزائر، وأساسيات الملكية الفكرية لحماية فكرة أو علامة أو اختراع." },
+            { "code": null, "title_fr": "Obtenir son label Startup ou Scale-up", "title_ar": "الحصول على وسم Startup أو Scale-up", "duration_days": 2, "status": "available", "trainers": ["Bergheul", "Amri"], "tagline_darija": "STARTUP TA3EK, RASMIYA", "tagline_en": "Make It Official",
+              "summary_fr": "Comprendre les critères et la procédure pour obtenir le label Startup ou Scale-up auprès des autorités algériennes.",
+              "summary_ar": "فهم المعايير والإجراءات للحصول على وسم Startup أو Scale-up لدى السلطات الجزائرية." }
+          ]
+        },
+        {
+          "label_fr": "Partie 3 · Lancement commercial et financement",
+          "label_ar": "الجزء 3 · الانطلاق التجاري والتمويل",
+          "formations": [
+            { "code": null, "title_fr": "Stratégie commerciale et marketing", "title_ar": "الاستراتيجية التجارية والتسويقية", "duration_days": 2, "status": "available", "trainers": ["Allag", "Amri"], "tagline_darija": "DIR KHOTTA, MA TEMCHICH B'ZHAR", "tagline_en": "Plan It, Don't Wing It",
+              "summary_fr": "Construire un plan commercial et marketing pour les premiers mois d'activité.",
+              "summary_ar": "بناء خطة تجارية وتسويقية للأشهر الأولى من النشاط." },
+            { "code": null, "title_fr": "Finance et gestion de démarrage", "title_ar": "المالية والتسيير في مرحلة الانطلاق", "duration_days": 2, "status": "available", "trainers": ["Bacha"], "tagline_darija": "A3REF WIN RAHOU DRAHMEK", "tagline_en": "Know Where Your Money Goes",
+              "summary_fr": "Les bases de la gestion financière pour une entreprise en phase de démarrage.",
+              "summary_ar": "أساسيات التسيير المالي لمؤسسة في مرحلة الانطلاق." },
+            { "code": null, "title_fr": "Financement et levée de fonds", "title_ar": "التمويل وجمع الأموال", "duration_days": 2, "status": "available", "trainers": ["Bacha"], "tagline_darija": "SIB LI YE3AWNEK, BLA DAYN", "tagline_en": "Get Funded, Not in Debt",
+              "summary_fr": "Dispositifs publics (ANADE/NESDA, ANGEM, CNAC, AAPI), dossier d'investissement, pitch investisseurs, crowdfunding COSOB.",
+              "summary_ar": "أجهزة الدعم العمومية (ANADE، ANGEM، CNAC، AAPI)، ملف الاستثمار، العرض أمام المستثمرين، والتمويل التشاركي عبر COSOB." }
+          ]
+        },
+        {
+          "label_fr": "Formation spéciale",
+          "label_ar": "تكوين خاص",
+          "formations": [
+            { "code": null, "title_fr": "Micro-importation en Algérie", "title_ar": "الاستيراد المصغّر في الجزائر", "headline_fr": "Devenir un expert du cabas !", "duration_days": 3, "duration_hours": 18, "status": "available", "trainers": ["Belkacemi"], "tagline_darija": "SAFER, 3AMER EL CABAS, OU BI3 FI BLADEK", "tagline_en": "Travel, fill the bag and sell in your country",
+              "summary_fr": "En 3 jours (18 h), maîtrisez le cadre légal, les démarches ANAE et douanières, le choix du produit et le calcul de votre prix de revient, et repartez avec votre fiche de rentabilité prête à l'emploi.",
+              "summary_ar": "في 3 أيام (18 ساعة): الإطار القانوني، إجراءات ANAE والجمارك، اختيار المنتج وحساب سعر التكلفة، وتخرج ببطاقة مردودية جاهزة للاستعمال." }
+          ]
+        },
+        {
+          "label_fr": "Parcours",
+          "label_ar": "المسار",
+          "formations": [
+            { "code": "R13", "site_id": "f65fc75d-061a-4d72-a70a-93ce6eccdf6d", "kind": "parcours", "title_fr": "Parcours Entrepreneuriat complet", "title_ar": "المسار الكامل لريادة الأعمال", "duration_days": 8, "status": "available", "trainers": ["Équipe pédagogique"], "tagline_darija": "PARCOURS KAMEL, MEN LAWEL LEL LAKHIR", "tagline_en": "The Complete Path, Start to Finish",
+              "summary_fr": "8 modules enchaînés, de l'idée à l'entreprise structurée et financée.",
+              "summary_ar": "8 وحدات متتابعة، من الفكرة إلى مؤسسة منظمة وممولة.",
+              "modules": ["Mindset entrepreneur", "Business model algérien", "Définir sa stratégie d'entreprise", "Démarches administratives et législation", "Obtenir son label Startup ou Scale-up", "Stratégie commerciale et marketing", "Finance et gestion de démarrage", "Financement et levée de fonds"],
+              "_alerte": "8 jours annoncés, mais les 8 modules totalisent 17 jours séparément — voir ECARTS.md §B1" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ecommerce",
+      "site_id": "7d025252-8466-4e91-bc2e-651608a4054f",
+      "name_fr": "E-commerce",
+      "name_ar": "التجارة الإلكترونية",
+      "tagline": "BI3, KBER, DOUM",
+      "intro_fr": "Du product research au white label, jusqu'au scaling de l'activité.",
+      "groups": [
+        {
+          "label_fr": "Vendre en ligne, grandir, durer",
+          "label_ar": "بِع عبر الإنترنت، كبُر، ودُم",
+          "formations": [
+            { "code": "F05", "site_id": "e19357bf-04fb-4078-ac1b-e28cdad18b3e", "part": 1, "title_fr": "Product Research et Sourcing", "title_ar": "البحث عن المنتجات والتوريد", "duration_days": 2, "status": "soon", "trainers": ["Chebil"], "tagline_darija": "9BEL MA TBI3, 3REF WACH TBI3", "tagline_en": "Know What Sells First",
+              "summary_fr": "Identifier un produit gagnant : analyse de tendances, validation de la demande et sélection du fournisseur.",
+              "summary_ar": "إيجاد منتج رابح: الاتجاهات، التحقق من الطلب، المورّد." },
+            { "code": null, "part": 2, "title_fr": "Scaler son e-commerce", "title_ar": "توسيع نشاط تجارتك الإلكترونية", "duration_days": 3, "status": "soon", "trainers": ["Chebil"], "tagline_darija": "NESCAYLI", "tagline_en": "Scale Without the Chaos",
+              "summary_fr": "Faire grandir son business pour augmenter sa marge.",
+              "summary_ar": "تنمية نشاطك لرفع هامش ربحك." },
+            { "code": "F04", "site_id": "d5f9cb6f-c035-43c4-b9e3-54f3389380af", "part": 3, "title_fr": "Branding et création d'un White Label", "title_ar": "إنشاء علامتك الخاصة (White Label)", "duration_days": 2, "status": "available", "trainers": ["Amri"], "tagline_darija": "PRODUIT TA3EK, MARQUE TA3EK", "tagline_en": "Your Product, Your Brand",
+              "summary_fr": "Sourcer des produits génériques, les rebrander sous sa propre marque et les vendre en ligne.",
+              "summary_ar": "توريد منتجات عامة وإعادة تسميتها وبيعها تحت علامتك.",
+              "_alerte": "Le site affiche 3 j + « bientôt » ; la slide affiche 2 j + « Disponible » (formateur Amri) ; la note interne dit « formateur à définir » — voir ECARTS.md §B3" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ia",
+      "site_id": "f18013f1-b0a2-4839-b377-b5afd4219934",
+      "name_fr": "IA & automatisation",
+      "name_ar": "الذكاء الاصطناعي والأتمتة",
+      "tagline": "AUTOMATISI KHEDEMTEK O ARBEH LWE9T",
+      "intro_fr": "Parcours progressif en trois niveaux, du no-code aux agents autonomes (9 jours).",
+      "groups": [
+        {
+          "label_fr": "Du no-code aux agents autonomes",
+          "label_ar": "من بدون برمجة إلى الوكلاء المستقلين",
+          "formations": [
+            { "code": "R09", "site_id": "34df3334-0805-454a-a643-752765287d0e", "level": 1, "title_fr": "No-code / Low-code et génération IA", "title_ar": "أدوات بدون برمجة والتوليد بالذكاء الاصطناعي", "duration_days": 3, "status": "available", "trainers": ["Seniani", "Ikouirene"], "tagline_darija": "BLA CODE, BLA WAJ3 RASS", "tagline_en": "No Code, No Headache", "prerequisites_fr": "Aucun prérequis en programmation",
+              "summary_fr": "Automatiser un workflow complet avec n8n, générer du contenu par IA et connecter Google Sheets, Gmail et WhatsApp — sans prérequis en programmation.",
+              "summary_ar": "أتمتة سير عمل كامل باستخدام n8n، توليد المحتوى بالذكاء الاصطناعي وربط Google Sheets وGmail وWhatsApp، دون أي معرفة مسبقة بالبرمجة." },
+            { "code": null, "level": 2, "title_fr": "Chatbot et vibe coding", "title_ar": "روبوت المحادثة والـ Vibe Coding", "duration_days": 3, "status": "available", "trainers": ["Seniani", "Ikouirene"], "tagline_darija": "BOT YEHDAR, EL APPLICATION TETEBNA", "tagline_en": "Bots That Talk, Apps That Build", "prerequisites_fr": "Niveau 1 ou équivalent",
+              "summary_fr": "Déployer un chatbot omnicanal avec mémoire vectorielle, et développer une mini-application par vibe coding.",
+              "summary_ar": "نشر روبوت محادثة متعدد القنوات بذاكرة شعاعية، وتطوير تطبيق مصغّر بتقنية Vibe Coding." },
+            { "code": "R11", "site_id": "9e75d6cf-ac4f-4ba6-9655-9a9edbfb8fb2", "level": 3, "title_fr": "Création d'agents IA", "title_ar": "إنشاء وكلاء الذكاء الاصطناعي", "duration_days": 3, "status": "available", "trainers": ["Seniani", "Ikouirene"], "tagline_darija": "AGENTS YKHEDMOU WAHDHOM", "tagline_en": "Agents That Work Alone", "prerequisites_fr": "Niveau 2 ou équivalent",
+              "summary_fr": "Concevoir et déployer un système multi-agents autonome en production, du RAG à l'orchestration.",
+              "summary_ar": "تصميم ونشر نظام وكلاء متعددين مستقل في بيئة الإنتاج، من RAG إلى التنسيق بين الوكلاء." }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "marketing",
+      "site_id": "899ed4d7-7e39-47b5-898c-9042e2fdd60c",
+      "name_fr": "Marketing & contenu",
+      "name_ar": "التسويق والمحتوى",
+      "tagline": "BANE 9BEL MA TBI3",
+      "intro_fr": "Stratégie publicitaire, production de contenu qui convertit et culture digitale appliquée au marketing.",
+      "groups": [
+        {
+          "label_fr": "Construire avant de vendre",
+          "label_ar": "ابنِ قبل أن تبيع",
+          "formations": [
+            { "code": "R15", "subtitle_fr": "Marketing fondamental", "title_fr": "Le digital au service du marketing", "title_ar": "الرقمي في خدمة التسويق", "duration_days": 2, "status": "available", "trainers": ["Amri"], "tagline_darija": "NEFSS EL MARKETING, GHIR B'DIGITAL", "tagline_en": "Same Marketing. New Tools.",
+              "summary_fr": "Le marketing fondamental — étude de marché, positionnement, connaissance client, stratégie de marque — réalisé avec des outils digitaux, hors acquisition payante.",
+              "summary_ar": "أساسيات التسويق — دراسة السوق، التموضع، معرفة الزبون، استراتيجية العلامة — باستعمال أدوات رقمية، دون الإعلانات المدفوعة.",
+              "_alerte": "Code R15 déduit des notes ; la note dit « bientôt » et « durée à confirmer », la slide dit « Disponible » 2 j — voir ECARTS.md §B4" },
+            { "code": null, "subtitle_fr": "Marketing digital", "title_fr": "Marketing digital", "title_ar": "التسويق الرقمي", "duration_days": 3, "status": "available", "trainers": ["Hamrani", "Bedja", "Brahimi"], "tagline_darija": "ASSAS EL MARKETING DIGITAL, F'YEDIK", "tagline_en": "Digital Marketing Basics, In Your Hands",
+              "summary_fr": "Les fondamentaux du marketing digital : panorama des canaux, création de contenus, acquisition et mesure de la performance.",
+              "summary_ar": "أساسيات التسويق الرقمي: نظرة شاملة على القنوات، إنشاء المحتوى، الاستقطاب وقياس الأداء." },
+            { "code": "R14", "subtitle_fr": "Création de contenu", "title_fr": "Vidéos UGC qui convertissent", "title_ar": "فيديوهات UGC التي تبيع", "duration_days": 2, "status": "soon", "trainers": ["Chebil"], "tagline_darija": "DIR UGC TA3EK, BLA CRÉATEUR", "tagline_en": "UGC, Minus the Creator",
+              "summary_fr": "Concevoir des vidéos UGC orientées conversion, avec des outils accessibles sans formation graphique.",
+              "summary_ar": "تصميم فيديوهات UGC موجّهة للتحويل، بأدوات في المتناول دون تكوين في التصميم الجرافيكي." },
+            { "code": "R12", "site_id": "6121f532-6072-47e3-b692-978161a11a4d", "subtitle_fr": "Acquisition payante", "title_fr": "Stratégie publicitaire & Ads : Meta et TikTok", "title_ar": "الاستراتيجية الإعلانية: إعلانات Meta وTikTok", "duration_days": 3, "status": "available", "trainers": ["Chebil"], "tagline_darija": "KHETTIT 9BEL MA TKHALLES", "tagline_en": "Plan Before You Pay",
+              "summary_fr": "Construire une stratégie publicitaire efficace et maîtriser les leviers d'acquisition payante (Meta et TikTok Ads).",
+              "summary_ar": "بناء استراتيجية إعلانية فعّالة والتحكم في وسائل الاستقطاب المدفوع (إعلانات Meta وTikTok)." }
+          ]
+        },
+        {
+          "label_fr": "Parcours",
+          "label_ar": "المسار",
+          "formations": [
+            { "code": null, "kind": "parcours", "title_fr": "Parcours Marketing et contenu", "title_ar": "المسار الكامل للتسويق والمحتوى", "duration_days": 10, "status": "available", "trainers": ["Équipe pédagogique"], "tagline_darija": "PARCOURS KAMEL, BACH TCHI3", "tagline_en": "The Complete Path, Start to Get Famous",
+              "summary_fr": "4 modules enchaînés, de la base à l'expertise.",
+              "summary_ar": "4 وحدات متتابعة، من الأساسيات إلى الاحتراف.",
+              "modules": ["Le digital au service du marketing", "Marketing digital", "Vidéos UGC qui convertissent", "Stratégie publicitaire & Ads : Meta et TikTok"],
+              "_alerte": "Parcours « Disponible » alors qu'un de ses modules (UGC) est « Bientôt » — voir ECARTS.md §B5" }
+          ]
+        }
+      ]
+    }
+  ]
+}

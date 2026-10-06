@@ -65,8 +65,9 @@ Un webhook **n8n** ou **Make** fonctionne aussi. Dans ce cas, `LEADS_WEBHOOK_SEC
 
 ## Déployer sur Vercel
 1. Importer le dépôt dans Vercel et régler **Root Directory = `site`**.
-2. Variables d'environnement : `LEADS_WEBHOOK_URL`, `NEXT_PUBLIC_SITE_URL` (URL finale, ex. `https://ecsel-academy.vercel.app`) et, si besoin, `LEADS_WEBHOOK_SECRET`.
+2. Variable d'environnement obligatoire : `LEADS_WEBHOOK_URL`. Le domaine de production est détecté automatiquement ; `NEXT_PUBLIC_SITE_URL` ne sert que pour un domaine personnalisé.
 3. Après le déploiement, envoyer une demande test et vérifier qu'elle arrive dans la Sheet.
+4. Ouvrir `https://<site>/qr` et imprimer les QR codes du stand. Ils pointent automatiquement vers le bon domaine.
 
 ## Différences avec le site d'origine (corrections)
 - Catalogue complet : 19 formations et 2 parcours, au lieu de 6. Durées et intitulés alignés sur le PPTX.

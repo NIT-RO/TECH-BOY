@@ -1,4 +1,8 @@
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://ecsel-academy.vercel.app").replace(/\/$/, "");
+// URL publique : NEXT_PUBLIC_SITE_URL si définie, sinon le domaine de production fourni par Vercel.
+const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL;
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? (vercelHost ? `https://${vercelHost}` : "http://localhost:3000")
+).replace(/\/$/, "");
 
 export const PHONE_E164 = "+213770401365";
 export const PHONE_DISPLAY = "0770 40 13 65";
